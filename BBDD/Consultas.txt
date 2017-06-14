@@ -1,0 +1,22 @@
+/**** Sacar las preguntas con sus respectivas respuestas y la id que las relaciona ****\
+
+SELECT respuestas.id_pregunta as "ID", preguntas.Contenido, respuestas.Contenido, preguntas.TipoPregunta
+FROM preguntas
+JOIN respuestas
+ON preguntas.id = respuestas.id_pregunta
+
+/**** Select de las preguntas por categoría con sus respectivas respuestas. 
+Incluye la información de sus IDs ****\
+
+SELECT respuestas.id_pregunta as "ID Pregunta",
+preguntas.Contenido as "Pregunta", 
+respuestas.id as "ID Respuesta",
+respuestas.Contenido AS "Respuesta" , 
+preguntas.TipoPregunta, 
+categoria.Nombre as "Categoría"
+FROM preguntas
+JOIN respuestas
+ON preguntas.id = respuestas.id_pregunta
+JOIN categoria
+ON categoria.id = preguntas.id_categoria
+WHERE categoria.Nombre LIKE "%General%"

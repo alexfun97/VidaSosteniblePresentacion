@@ -1,0 +1,95 @@
+[
+    {
+        "pregunta": "¿Qué edad tienes?",
+        "id_p":"1",
+        "tipo": "radio",
+        "name":"edad",
+        "categoria":"General",
+        "respuesta": [
+            {
+                "content":"Menos de 16 años",
+                "value":"10",
+                "id":"1"
+            },
+            {
+                "content":"Entre 17 y 36",
+                "value":"20",
+                "id":"2"
+            },
+            {
+                "content":"Entre 37 y 56",
+                "value":"30",
+                "id":"3"
+            },
+            {
+                "content":"Entre 57 y 76",
+                "value":"30",
+                "id":"4"
+            },
+            {
+                "content":"Más de 76",
+                "value":"30",
+                "id":"5"
+            }
+        ]
+
+
+    },
+    {
+        "pregunta": "Formación",
+        "id_p":"2",
+        "tipo": "radio",
+        "name":"formacion",
+        "categoria":"General",
+        "respuesta": [
+            {
+                "content":"Primer grado (educación obligatoria)",
+                "value":"10",
+                "id":"10"
+            },
+            {
+                "content":"Segundo grado (bachillerato o equivalente)",
+                "value":"20",
+                "id":"11"
+            },
+            {
+                "content":"Tercer grado (estudios universitarios)",
+                "value":"30",
+                "id":"12"
+            }
+        ]
+
+
+    },
+    {
+        "pregunta": "¿Cómo es la casa en la que vives?",
+        "id_p":"3",
+        "tipo": "radio",
+        "categoria":"energia",
+        "name":"casa",
+        "respuesta": [
+            {
+                "content":"Un chalet o vivienda aislada",
+                "value":"10",
+                "id":"6"
+            },
+            {
+                "content":"Un adosado",
+                "value":"20",
+                "id":"7"
+            },
+            {
+                "content":"Una vivienda en un bloque de pisos",
+                "value":"30",
+                "id":"8"
+            },
+            {
+                "content":"Una vivienda en una manzana de casas.",
+                "value":"30",
+                "id":"9"
+            }
+        ]
+
+
+    }
+]
